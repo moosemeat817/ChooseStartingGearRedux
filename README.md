@@ -1,6 +1,6 @@
 # Choose Starting Gear Redux
 
-***This mod replaces Choose Starting Gear and DLC-Choose Starting Gear-DLC.***
+⚠️***This mod replaces Choose Starting Gear and DLC-Choose Starting Gear-DLC.***⚠️
 
 This mod allows you to choose your starting gear when starting a new game.  
 
