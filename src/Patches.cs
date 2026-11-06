@@ -10,7 +10,7 @@ using MelonLoader;
 
 namespace ChooseStartingGear
 {
-    
+
     class Patches
     {
         // Move the random variable to class level for easier access
@@ -286,8 +286,8 @@ namespace ChooseStartingGear
                         if (Settings.settings.wolfPeltFresh != 0) AddItemToInventory("GEAR_WolfPelt", Settings.settings.wolfPeltFresh);
 
                         // DLC Materials
-                        if (Settings.settings.cougarPeltCured != 0) AddItemToInventory("GEAR_CougarHideDried", Settings.settings.wolfPeltCured);
-                        if (Settings.settings.cougarPeltFresh != 0) AddItemToInventory("GEAR_CougarHide", Settings.settings.wolfPeltFresh);
+                        if (Settings.settings.cougarPeltCured != 0) AddItemToInventory("GEAR_CougarHideDried", Settings.settings.cougarPeltCured);
+                        if (Settings.settings.cougarPeltFresh != 0) AddItemToInventory("GEAR_CougarHide", Settings.settings.cougarPeltFresh);
                         if (Settings.settings.cougarClaw != 0) AddItemToInventory("GEAR_CougarClaw", Settings.settings.cougarClaw);
 
                         if (Settings.settings.birchSaplingCured != 0) AddItemToInventory("GEAR_BirchSaplingDried", Settings.settings.birchSaplingCured);
@@ -319,7 +319,7 @@ namespace ChooseStartingGear
         private static void AddItemToInventory(string itemName, int quantity = 1)
         {
             // Get the GearItem prefab from the string name
-            GearItem gearItemPrefab = GearItem.LoadGearItemPrefab(itemName);
+            GearItem gearItemPrefab = GearPrefabs.Load(itemName);
             if (gearItemPrefab == null)
             {
                 MelonLogger.Warning($"[ChooseStartingGear] Gear item '{itemName}' not found. This item may be part of a DLC that is not installed.");
@@ -333,7 +333,7 @@ namespace ChooseStartingGear
         private static void AddClothingItem(string clothingItemName, float condition = -1f)
         {
             // Get the GearItem prefab from the string name
-            GearItem gearItemPrefab = GearItem.LoadGearItemPrefab(clothingItemName);
+            GearItem gearItemPrefab = GearPrefabs.Load(clothingItemName);
             if (gearItemPrefab == null)
             {
                 MelonLogger.Warning($"[ChooseStartingGear] Gear item '{clothingItemName}' not found. This item may be part of a DLC that is not installed.");

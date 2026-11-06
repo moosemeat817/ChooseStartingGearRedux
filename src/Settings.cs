@@ -55,7 +55,7 @@ namespace ChooseStartingGear
         [Name("Outer Slot Item")]
         [Description("Choose clothing item for this slot")]
         [Choice("None", "Bearskin Coat", "Down Vest", "Expedition Parka", "Light Shell", "Mackinaw Jacket", "Mariner's Pea Coat", "Military Coat", "Moose-Hide Cloak",
-                "Old Fashioned Parka", "Simple Parka", "Ski Jacket", "Sport Vest", "Urban Parka", "Windbreaker", "Wolfskin Coat", "Deerskin Coat",
+                "Old Fashioned Parka", "Simple Parka", "Ski Jacket", "Sport Vest", "Urban Parka", "Windbreaker", "Wolfskin Coat", "Deerskin Coat (MOD)",
                 "Miner's Jacket (DLC)", "Tactical Jacket (DLC)")]
         public TorsoOuter torsoOuterOuter = TorsoOuter.None;
 
@@ -67,7 +67,7 @@ namespace ChooseStartingGear
         [Name("Inner Slot Item")]
         [Description("Choose clothing item for this slot")]
         [Choice("None", "Bearskin Coat", "Down Vest", "Expedition Parka", "Light Shell", "Mackinaw Jacket", "Mariner's Pea Coat", "Military Coat", "Moose-Hide Cloak",
-                "Old Fashioned Parka", "Simple Parka", "Ski Jacket", "Sport Vest", "Urban Parka", "Windbreaker", "Wolfskin Coat", "Deerskin Coat",
+                "Old Fashioned Parka", "Simple Parka", "Ski Jacket", "Sport Vest", "Urban Parka", "Windbreaker", "Wolfskin Coat", "Deerskin Coat (MOD)",
                 "Miner's Jacket (DLC)", "Tactical Jacket (DLC)")]
         public TorsoOuter torsoOuterInner = TorsoOuter.None;
 

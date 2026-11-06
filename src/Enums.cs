@@ -34,7 +34,7 @@ namespace ChooseStartingGear
     public enum RandomTorsoOuter
     {
         GEAR_BearSkinCoat, GEAR_DownVest, GEAR_PremiumWinterCoat, GEAR_SkiJacket, GEAR_MackinawJacket, GEAR_QualityWinterCoat, GEAR_MilitaryParka, GEAR_MooseHideCloak,
-        GEAR_HeavyParka, GEAR_LightParka, GEAR_DownSkiJacket, GEAR_InsulatedVest, GEAR_DownParka, GEAR_BasicWinterCoat, GEAR_WolfSkinCape, GEAR_DeerskinCoat,
+        GEAR_HeavyParka, GEAR_LightParka, GEAR_DownSkiJacket, GEAR_InsulatedVest, GEAR_DownParka, GEAR_BasicWinterCoat, GEAR_DeerskinCoat, GEAR_WolfSkinCape, GEAR_DeerskinCoat_MOD,
         GEAR_MinersJacket, GEAR_TacticalJacket
     }
 
@@ -91,8 +91,9 @@ namespace ChooseStartingGear
     public enum TorsoOuter
     {
         None, GEAR_BearSkinCoat, GEAR_DownVest, GEAR_PremiumWinterCoat, GEAR_SkiJacket, GEAR_MackinawJacket, GEAR_QualityWinterCoat, GEAR_MilitaryParka, GEAR_MooseHideCloak,
-        GEAR_HeavyParka, GEAR_LightParka, GEAR_DownSkiJacket, GEAR_InsulatedVest, GEAR_DownParka, GEAR_BasicWinterCoat, GEAR_WolfSkinCape, GEAR_DeerskinCoat,
-        GEAR_MinersJacket, GEAR_TacticalJacket    }
+        GEAR_HeavyParka, GEAR_LightParka, GEAR_DownSkiJacket, GEAR_InsulatedVest, GEAR_DownParka, GEAR_BasicWinterCoat, GEAR_WolfSkinCape, GEAR_DeerskinCoat_MOD,
+        GEAR_MinersJacket, GEAR_TacticalJacket
+    }
 
     public enum TorsoInner
     {
